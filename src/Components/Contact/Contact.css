@@ -1,0 +1,78 @@
+.conatctbanner{
+    height: 43vh;
+    background-image: url(./../../assets/Background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.conatctbanner .bannerinfo{
+    margin-left: 15%;
+    width: 35%;
+    padding-top: 4%;
+}
+.conatctbanner .bannerinfo h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+.conatctbanner .bannerinfo p{
+   margin-top: 2vh;
+   color: white;
+}
+.conatctbanner .bannerinfo .bannerbtn{
+    margin-top: 5vh;
+}
+.conatctbanner .bannerinfo .bannerbtn button{
+    padding: 8px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contactinfo{
+    display: flex;
+    height: 90vh;
+}
+.contactinfo .cileft{
+    width: 30%;
+    margin-left: 15%;
+    padding-top: 8%;
+}
+.contactinfo .cileft h2{
+   font-size: 2.3rem;
+   color: #133a75;
+}
+.contactinfo .cileft p{
+    margin-top: 3vh;
+    font-weight: 500;
+    color: #666666;
+    line-height: 20px;
+ }
+
+.contactinfo .cileft .cinfocards{
+    display: flex;
+    margin-top: 5vh;
+}
+.contactinfo .cileft .cinfocards .ccardleft{
+    background-color:#1a73e8;
+    padding: 2vh 2.5vh;
+    border-radius: 5px;
+    margin-right: 3vh;
+}
+
+.contactinfo .cileft .cinfocards  span{
+   display: block;
+   align-items: center;
+   color: #333333;
+}
+.contactinfo .cileft .cinfocards .exep{
+    margin-top: 2vh;
+}
+.contactinfo .ciright{
+    padding-top: 5%;
+}
+.contactgeolocation{
+    margin-top: 5vh;
+}

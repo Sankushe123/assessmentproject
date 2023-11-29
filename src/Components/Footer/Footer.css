@@ -1,0 +1,133 @@
+.footer {
+    background-color: #17478d;
+    color: #ccc;
+  }
+  
+  .footer-container {
+    display: flex;
+    padding: 13vh;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-container h3{
+    font-size: 15px;
+    color: white;
+  }
+  .footer-container .social-title{
+    display: flex;
+  }
+  .footer-container .social-title .labelicon{
+    margin-top: 6px;
+    transform: rotate(140deg);
+    font-size: .8rem;
+  }
+  .footer-container .social-media{
+    margin-top: 3vh;
+  }
+  .footer-container .social-media li{
+    background-color: white;
+    padding: .4vh .7vh;
+    border-radius: 3px;
+   
+  }
+
+  .footer-column {
+    width: 27%;
+    height: 20vh;
+  }
+  .servicesbox{
+    width: 46%;
+  }
+  .footer-column .services{
+    margin-top: 2vh;
+  }
+  .footer-column .services li{
+    padding-top: 1vh;
+  }
+  .footer-column .services li .rightarrow{
+    margin-right: 1vh;
+  }
+  .footer-column .services li a{
+   padding-right: 15vh;
+   color: #ccc;
+   text-decoration: none;
+   font-size: 14px;
+   margin-top: 10px;
+  } 
+  .footer-container .footer-column .internet{
+    margin-top: 4vh;
+    display: flex;
+  }
+  .footer-container .footer-column .internet img{
+    width: 7%;
+    margin-right: 2vh;
+    border-radius: 3px;
+    padding: .5vh .7vh;
+    background-color: white;
+  }
+  .footer-container .footer-column .internet span:hover{
+    cursor: pointer;
+  }
+  .social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .services {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .services li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footercontact {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    margin-top: 2.5vh;
+  }
+  .footercontact hr {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .footercontact .fcitem {
+    margin-bottom: 5px;
+    display: flex;
+  }
+  .footercontact .fcitem .fcicon{
+    font-size: .9rem;
+    color: #ccc;
+    margin-right: 2vh;
+  }
+  .footercontact .fcitem span{
+    font-size: .9rem;
+   
+  }
+  
+  .copyright {
+    width: 100%;
+    background-color: #133a75;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    padding: 5vh 0;
+    color: #ccc;
+    margin-top: 20px;
+  }
+  .copyright h4{
+    font-weight: 300;
+  }
+  
+  

@@ -1,0 +1,68 @@
+.snBox{
+    background-color:#17478d;
+    padding: 2vh 0;
+    padding-right: 10vh;
+    color: #e2eaf6;
+    display: flex;
+    font-family: Montserrat;
+    justify-content: flex-end;
+}
+.snBox div{
+    display: flex;
+    padding-left: 1vh;
+}
+.snBox div span{
+    padding-left: 5px;
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vh 0;
+    height: 10vh;
+}
+.mainnav .mnleft .menu{
+    visibility: hidden;
+}
+.mainnav .mnleft h2{
+    font-size: 2.2rem;
+    margin-top: -5px;
+    padding-left: 15vh;
+    color: #17478d;
+}
+.mainnav .mnright{
+    background-color: white;
+    
+}
+.mainnav .mnright ul{
+    display: flex;
+    margin-top: 1.3vh;
+    padding-right: 10vh;
+}
+.mainnav .mnright ul li{
+    list-style-type: none;
+    padding: 0 1vh;
+    text-decoration: none;
+}
+.mainnav .mnright ul li a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    position: relative;
+}
+.mainnav .mnright ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 2vh;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #1a73e8;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+  }
+  .mainnav .mnright ul li a:hover::after {
+    transform: scaleX(1);
+  }
